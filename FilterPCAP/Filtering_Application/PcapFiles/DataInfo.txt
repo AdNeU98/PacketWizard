@@ -1,0 +1,33 @@
+// Modules
+1. Csv parsing (App config + filters file)
+2. Directory parsing (recursive Iteration) : files
+3. Reading pcap file +converting packet to raw_packet+ creating pktInfo + csv store
+4. Read csv + filtering     
+5. Output pcap
+
+
+
+// Install PcapPlusPlus :
+1. Install from git : https://github.com/seladb/PcapPlusPlus
+2. cd /Users/aroras/Downloads/PcapPlusPlus-master
+3.  ./configure-mac_os_x.sh
+4.   sudo make install
+5.  All header files in : /Users/aroras/Downloads/PcapPlusPlus-master/Dist/header/
+
+
+
+// Run Pcapplusplus
+make -> MAKEFILe
+./Tutorial-HelloWorld
+
+
+// Sample test cases
+(ip.saddr == 35.190.241.156 || ip.saddr == 52.114.3%.16)       && (dport==765 && (sport  == 65 && len >= 87))
+
+(len < 250 && (ip.saddr == 192.168.1.9) && (dport        in 400,1000))
+
+(len < 250 && (ip.saddr == 192.168.1.9) && (dport in 400,1000))
+
+(len < 250 && (ip.saddr == 192.168.1.9) && (dport in 400,1000)
+
+(len < 2000)
