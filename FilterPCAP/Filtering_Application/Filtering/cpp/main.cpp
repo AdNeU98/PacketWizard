@@ -12,9 +12,9 @@
 #include <sys/time.h>
 
 #include "common.h"
-#include "C_pcapWriter.h"
-#include "C_packetParser.h"
-#include "C_packetFilter.h"
+#include "headers/C_pcapWriter.h"
+#include "headers/C_packetParser.h"
+#include "headers/C_packetFilter.h"
 using namespace std;
 
 // objects for various classes
