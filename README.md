@@ -84,4 +84,4 @@ Various Filter formats ->
 4. (dport==556) --> (Incorrect)
 5. (dport == 556) --> (Correct)
 6. (ip.saddr == 192.168.1.1) && (protocol == TCP || dport == 443) --> (Correct)
-7. (ip.addr == 192.168.1.9 || mac == 67.23.d3.c2.44.a1)
+7. (ip.addr == 192.168.1.9 || mac == 67.23.d3.c2.44.a1) --> (Correct)
